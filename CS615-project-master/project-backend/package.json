@@ -1,0 +1,38 @@
+{
+  "name": "cs615-project",
+  "version": "1.0.0",
+  "description": "This project is used to create some stories along with snapshots and tags for better collaborative learning",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillerD/CS615-project.git"
+  },
+  "author": "Karthikeyan Somasundaram, Siddhartha Ranganathan, Bindu Nag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KillerD/CS615-project/issues"
+  },
+  "homepage": "https://github.com/KillerD/CS615-project#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-mongodb-session": "^2.3.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.28",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "sequelize": "^5.21.6",
+    "swagger-jsdoc": "^1.3.0",
+    "swagger-ui-express": "^4.1.4",
+    "uuidv4": "^6.0.7"
+  }
+}
